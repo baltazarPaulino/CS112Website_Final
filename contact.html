@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LA's Scenic Views</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="main.js"></script>
+</head>
+<body>
+<div id="wrapper-div">
+	<div id="header-div">
+		<div id="title-div"> 
+			<h1>LA's Scenic Views</h1>
+		</div>
+		<div id="title-image">
+			<img src="imgs/img_title.jpg" style="width:180px;length:50px;">
+		</div>
+		
+	</div>
+	
+	<div id="nav-div">
+		<div class="nav-bar">
+			<ul class="socials-list" type="none">
+				<li>
+					<a href="index.html" target="_self">Home</a>
+				</li>
+				<li>
+					<a href="service.html" target="_self">Locations</a>
+				</li>
+				<li>
+					<a href="contact.html" target="_self">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="contact-body" class="clearfix">
+
+		<div class="contact-us">
+			<h1 id="contact-title"><u>Contact Us</u></h1>
+			<h4 id="contact-par">
+			Feel free to email us with any questions or inquiries. 
+			Also, if you'd like to share a location that is not mentioned here, please submit it down below. Thank you!
+			</h4>
+		</div>
+		<div class="submission">
+		<form id="frmSub">
+			<label for="name">Name:</label>
+			<input type="text" name="name" placeholder="Name" required><br><br>
+			<label for="eMail">Email:</label>
+			<input type="text" name="eMail" placeholder="Email address" required><br><br>
+			<label for="subject">Subject:</label>
+			<input type="text" name="subject" placeholder="Subject"><br><br>
+			<label for="message">Message:</label><br>
+			<textarea id="freeform" name="freeform" rows="4" cols="50">
+			</textarea><br>
+			<a href="service.html" class ="btn"><span>Submit</span></a>
+		</form>
+		</div>
+	</div>
+	
+	<div id="footer-div">
+		<p class="footer-logo">LA's Scenic Views</p>
+		<ul class="socials">
+			<li><a class="soc-logo" href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a class="soc-logo" href="#"><i class="fa fa-google-plus"></i></a></li>
+			<li><a class="soc-logo" href="#"><i class="fa fa-pinterest"></i></a></li>
+		</ul>
+		<div class="footer-bottom">
+			<p class="copy">copyright &copy;2023 Paulino Baltazar. All rights reserved</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
